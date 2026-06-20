@@ -14,7 +14,7 @@ public class ex2 {
         Cachorro Pitbull = new Cachorro();
         Pitbull.name = "anjinho";
         Pitbull.raça = "rotvailer";
-        System.out.println("Nome:"+ Pitbull.name + "raça"+ Pitbull.raça + "OPA");
+        System.out.println("Nome:"+ Pitbull.name + "  raça   "+ Pitbull.raça );
 
     }
 }
