@@ -1,0 +1,17 @@
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+/bin/
+/out/
+
+# Configurações do VS Code
+.vscode/
+.factorypath
+.project
+.classpath
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
