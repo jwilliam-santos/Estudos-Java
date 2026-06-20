@@ -6,12 +6,12 @@
 /bin/
 /out/
 
-# Configurações do VS Code
+# Configurações do Ecipse
 .vscode/
 .factorypath
 .project
 .classpath
-
+.metadata
 # Arquivos do Sistema Operacional
 .DS_Store
 Thumbs.db
