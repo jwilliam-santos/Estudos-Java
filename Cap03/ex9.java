@@ -1,4 +1,3 @@
-}
 //Crie um array de boolean com tamanho 5. 
 //Defina posições alternadas como true e false. 
 //Imprima apenas as posições que forem true.
