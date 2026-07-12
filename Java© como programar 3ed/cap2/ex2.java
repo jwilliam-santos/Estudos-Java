@@ -9,7 +9,7 @@ public class ex2 {
         System.out.print("Digite o segundo inteiro");
         int c =a.nextInt();
         int diferença  = b-c;
-        System.out.print("soma é " + b+c + "produto é " + b*c + "diferença " + diferença  + " divisão " + b/c);
+        System.out.print("soma é " + b+c + " produto é " + b*c +  "diferença " + diferença  + " divisão " + b/c);
 
     }    
 }
