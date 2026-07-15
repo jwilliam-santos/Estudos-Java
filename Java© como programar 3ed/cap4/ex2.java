@@ -1,0 +1,34 @@
+/*Desenvolva um aplicativo Java que determina se um cliente de uma loja de departamentos excedeu o
+limite de crédito em uma conta-corrente. Para cada cliente, os seguintes dados estão disponíveis:
+a) Número de conta.
+b) Saldo no início do mês.
+c) Total de todos os itens cobrados desse cliente no mês.
+d) Total de créditos aplicados ao cliente no mês.
+e) Limite de crédito autorizado.
+O programa deve inserir todos esses dados como inteiros, calcular o novo saldo (= saldo inicial +despesas – créditos), exibir o novo saldo e
+determinar se o novo saldo excede ao limite de crédito do cliente. Para aqueles clientes cujo limite de crédito foi excedido, o programa deve
+exibir a mensagem "Limite de crédito excedido".*/
+class Cliente{
+    private int NumConta;
+    private int SaldoInicioMes;
+    private int TotalItens;
+    private int TotalCredito;
+    private int LimiteCredito;
+    public Cliente(int NumConta,int SaldoInicioMes,int TotalItens,int TotalCredito,int LimiteCredito){
+        this.NumConta = NumConta;
+        this.SaldoInicioMes = SaldoInicioMes;
+        this.TotalItens = TotalItens;
+        this.LimiteCredito = LimiteCredito;
+    }
+    public void NewSaldo(int despesas,int créditos){
+        int newSaldo = SaldoInicioMes + despesas - créditos;
+        System.out.printf("O novo saldo é %d ",newSaldo);
+    }
+    
+}
+public class ex2 {
+    public static void main(String[] args) {
+        Cliente a = new Cliente(21312, 5000, 123, 312, 32);
+        a.NewSaldo(50,50);
+    }
+}
