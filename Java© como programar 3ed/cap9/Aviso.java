@@ -1,0 +1,1 @@
+/*por algum motivo as questoẽs desse capitulo no são teoricas,e ja fiz questoẽs de herança com o outro livro :) */
